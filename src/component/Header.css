@@ -1,0 +1,57 @@
+.header-container {
+  display: flex;
+  padding: 16px 2px;
+  position: relative;
+}
+input {
+  width: 675px;
+  height: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-size: 50x;
+  font-size: 18px;
+  padding: 1px 26px;
+  margin-left: 2px;
+}
+
+.search-img svg {
+  font-size: 22px;
+  margin-left: 1%;
+  top: 35%;
+  position: absolute;
+}
+
+.app-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-left: 3%;
+}
+.app-header {
+  margin-left: 7%;
+}
+.search-container {
+  overflow-y: scroll;
+  margin-top: 4%;
+  position: absolute;
+  left: 21%;
+  background: white;
+  width: 47%;
+  top: 7%;
+  padding: 4px;
+}
+
+.search-item {
+  font-size: 18px;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.search-item:hover {
+  font-weight: 700;
+  background: rgb(212, 211, 211);
+}

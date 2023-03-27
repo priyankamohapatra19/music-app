@@ -1,0 +1,12 @@
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 81%;
+}
+
+.content-discover {
+  font-size: 38px;
+  color: white;
+  height: 10%;
+}

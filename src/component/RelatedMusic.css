@@ -1,0 +1,38 @@
+.related-music-container {
+  display: flex;
+}
+.top-charts {
+  height: 58%;
+  overflow-y: scroll;
+  margin-top: 9%;
+}
+.top-charts-text {
+  height: 4%;
+  font-size: 30px;
+  margin-top: 4%;
+  color: white;
+}
+
+.charts-container {
+  margin-top: 14%;
+}
+.top-artists {
+  height: 42%;
+  overflow-x: scroll;
+  display: flex;
+  margin-top: 4%;
+}
+
+.top-artists img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.top-artists-text {
+  margin-top: 8%;
+  padding: 4px;
+  font-size: 28px;
+  color: white;
+}

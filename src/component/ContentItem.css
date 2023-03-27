@@ -1,0 +1,41 @@
+.content-item-img {
+  padding: 16px 8px;
+  text-align: center;
+}
+.content-item-detail {
+  margin-left: 10%;
+  margin-bottom: 4%;
+}
+.content-item-title {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.content-item-subtitle {
+  color: white;
+}
+
+.content-item-container {
+  margin: 4px 2px;
+  background: rgb(37, 36, 43);
+  border-radius: 10px;
+  width: 30%;
+  position: relative;
+}
+.music-icon {
+  position: absolute;
+  color: white;
+  z-index: 5;
+  top: 38%;
+  left: 43%;
+  font-size: 24px;
+}
+.active {
+  opacity: 0.5;
+}
+
+audio {
+  display: none;
+}
